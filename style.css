@@ -40,6 +40,9 @@ h1{
 h2{
     font-size: 1.1em;
 }
+p{
+    line-height: 1.5em;
+}
 
 .section{
     padding: 1em 2em;
@@ -50,7 +53,9 @@ h2{
     background-color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    border-radius: var(--border-radius-desktop)
+    border-radius: var(--border-radius-desktop);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .05);
+    
 }
 
 .card__section__top {
@@ -104,7 +109,7 @@ h2{
     border-width: 0;
     border-radius: 5px;
     width: 100%;
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 
@@ -120,7 +125,6 @@ h2{
 .card__section__bottom__right p{ 
     color: white;
     width: 80%;
-    line-height: 1.5em;
 }
 
 @media only screen and (max-width: 600px) {
