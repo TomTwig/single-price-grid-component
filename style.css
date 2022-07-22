@@ -115,7 +115,7 @@ p{
     margin-top: 1em;
 }
 
-.card__section__bottom__left button:hover
+.card__section__bottom__left button:active
 {
   background-color: var(--color-primary-brightYellow-hover);
 }
