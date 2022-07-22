@@ -4,6 +4,7 @@
     /* Primary */
         --color-primary-cyan: hsl(179, 62%, 43%);
         --color-primary-brightYellow: hsl(71, 73%, 54%);
+        --color-primary-brightYellow-hover: hsl(71, 73%, 64%);
     /* Neutral */
         --color-neutral-lightGray: hsl(204,43%, 93%);
         --color-neutral-grayishBlue: hsl(218,22%,67%);
@@ -112,6 +113,11 @@ p{
     border-radius: 5px;
     width: 100%;
     margin-top: 1em;
+}
+
+.card__section__bottom__left button:hover
+{
+  background-color: var(--color-primary-brightYellow-hover);
 }
 
 
